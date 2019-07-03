@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_controller"
+    app:startDestination="@id/weatherActivity">
+
+    <activity
+        android:id="@+id/weatherActivity"
+        android:name="com.mobile.restaruant.ui.weather.WeatherActivity"
+        android:label="activity_weather"
+        tools:layout="@layout/activity_weather" />
+    <activity
+        android:id="@+id/restaurantActivity"
+        android:name="com.mobile.restaruant.ui.restsurant.RestaurantActivity"
+        android:label="activity_restaurant"
+        tools:layout="@layout/activity_restaurant" />
+    <activity
+        android:id="@+id/splashActivity"
+        android:name="com.mobile.restaruant.ui.splash.SplashActivity"
+        android:label="activity_splash"
+        tools:layout="@layout/activity_splash" />
+</resources>

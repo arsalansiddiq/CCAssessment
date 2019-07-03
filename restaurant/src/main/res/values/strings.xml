@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Restaruant</string>
+    <string name="string_popular_restaurant">Popular Restaurant</string>
+    <string name="google_maps_key">AIzaSyA_4_ZncFAl9IK0WwEXh2wkPMKCveYD878</string>
+    <string name="errorString">something went wrong</string>
+    <string name="appid_openweather">40f55a7fd8edd01b641434b56509e1b6</string>
+    <string name="string_dummyText">Day</string>
+</resources>

@@ -1,4 +1,4 @@
-package com.mobile.ccassessment;
+package com.mobile.restaruant;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.mobile.ccassessment", appContext.getPackageName());
+        assertEquals("com.mobile.restaruant", appContext.getPackageName());
     }
 }
