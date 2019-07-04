@@ -23,14 +23,14 @@ public class APIClient {
 
     public static Retrofit getRetrofitClient (String baseURL) {
 
-//        if (sRetrofit == null) {
+        if (sRetrofit == null) {
             sRetrofit = new Retrofit.Builder()
                     .client(sOkHttpClient)
                     .baseUrl(baseURL)
                     .addConverterFactory(GsonConverterFactory.create())
                     .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
                     .build();
-//        }
+        }
         return sRetrofit;
     }
     public static void canceler () {

@@ -6,6 +6,10 @@ import androidx.lifecycle.ViewModel;
 import com.mobile.restaruant.data.APIResponseRestaurant;
 import com.mobile.restaruant.data.NetworkCalls;
 
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.UnsupportedEncodingException;
+
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.schedulers.Schedulers;
@@ -40,5 +44,20 @@ public class RestaurantViewModel extends ViewModel {
     public String getCityName(String compoundCode) {
 
         return compoundCode.split(",")[1];
+    }
+
+    public String readJSONFromAsset(InputStream inputStream) {
+        String json = null;
+        try {
+            int size = inputStream.available();
+            byte[] buffer = new byte[size];
+            inputStream.read(buffer);
+            inputStream.close();
+            json = new String(buffer, "UTF-8");
+        } catch (IOException ex) {
+            ex.printStackTrace();
+            return null;
+        }
+        return json;
     }
 }

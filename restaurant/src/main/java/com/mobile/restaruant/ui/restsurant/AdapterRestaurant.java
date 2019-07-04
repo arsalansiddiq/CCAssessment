@@ -13,18 +13,19 @@ import com.mobile.restaruant.databinding.ListItemRestaurantBinding;
 import com.mobile.restaruant.data.network.model.response.restaurantresponse.Result;
 import com.mobile.restaruant.viewmodels.RestaurantViewModel;
 
+
 import java.util.List;
 
 public class AdapterRestaurant extends
         RecyclerView.Adapter<AdapterRestaurant.ViewHolder>
 {
 
-    private List<Result> flightsList;
+    private List<Result> restaurantList;
     private RestaurantViewModel restaurantViewModel;
     private Context context;
 
-    public AdapterRestaurant(List<Result> flsLst, RestaurantViewModel restaurantViewModel, Context context){
-        flightsList = flsLst;
+    public AdapterRestaurant(List<Result> restaurantList, RestaurantViewModel restaurantViewModel, Context context){
+        this.restaurantList = restaurantList;
         this.context = context;
         this.restaurantViewModel = restaurantViewModel;
     }
@@ -43,26 +44,26 @@ public class AdapterRestaurant extends
     @Override
     public void onBindViewHolder(AdapterRestaurant.ViewHolder holder, int position) {
 
-        Result result = flightsList.get(position);
+        Result result = restaurantList.get(position);
 
-        Glide.with(context).load(result.getIcon()).into(holder.flightItemBinding.imageViewRestaurantImage);
-        holder.flightItemBinding.txtViewRestaurantName.setText(result.getName());
-        holder.flightItemBinding.txtViewCity.setText(restaurantViewModel.getCityName(result.getPlusCode().getCompoundCode()));
-        holder.flightItemBinding.ratingBarRestaurant.setRating(result.getRating());
+        Glide.with(context).load(result.getIcon()).into(holder.listItemRestaurantBinding.imageViewRestaurantImage);
+        holder.listItemRestaurantBinding.txtViewRestaurantName.setText(result.getName());
+        holder.listItemRestaurantBinding.txtViewCity.setText(restaurantViewModel.getCityName(result.getPlusCode().getCompoundCode()));
+        holder.listItemRestaurantBinding.ratingBarRestaurant.setRating(result.getRating());
 
     }
 
     @Override
     public int getItemCount() {
-        return flightsList.size();
+        return restaurantList.size();
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder{
-        public ListItemRestaurantBinding flightItemBinding;
+        public ListItemRestaurantBinding listItemRestaurantBinding;
 
         public ViewHolder(ListItemRestaurantBinding flightItemLayoutBinding) {
             super(flightItemLayoutBinding.getRoot());
-            flightItemBinding = flightItemLayoutBinding;
+            listItemRestaurantBinding = flightItemLayoutBinding;
         }
     }
 }

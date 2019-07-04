@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="string_popular_restaurant">Popular Restaurant</string>
+    <string name="errorString">something went wrong</string>
+    <string name="appid_openweather">40f55a7fd8edd01b641434b56509e1b6</string>
+    <string name="string_dummyText">Day</string>
+    <string name="string_tools_city">City</string>
+    <string name="string_tools_day">Day</string>
+    <string name="string_tools_temperature">Temperature</string>
+    <string name="string_tools_centigrade">centigrade</string>
+</resources>

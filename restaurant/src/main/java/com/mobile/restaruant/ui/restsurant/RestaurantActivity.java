@@ -1,5 +1,16 @@
 package com.mobile.restaruant.ui.restsurant;
 
+import android.Manifest;
+import android.app.Activity;
+import android.content.Context;
+import android.content.pm.PackageManager;
+import android.location.Location;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
+import android.os.Bundle;
+import android.util.Log;
+import android.widget.Toast;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,23 +21,16 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
-import android.Manifest;
-import android.app.Activity;
-import android.content.pm.PackageManager;
-import android.location.Location;
-import android.os.Bundle;
-import android.util.Log;
-import android.widget.Toast;
-
+import com.google.gson.Gson;
 import com.mobile.restaruant.R;
-import com.mobile.restaruant.databinding.ActivityRestaurantBinding;
-import com.mobile.restaruant.utils.LocationListener;
 import com.mobile.restaruant.data.APIResponseRestaurant;
 import com.mobile.restaruant.data.network.model.response.restaurantresponse.RestaurantResponse;
+import com.mobile.restaruant.databinding.ActivityRestaurantBinding;
+import com.mobile.restaruant.utils.LocationListener;
 import com.mobile.restaruant.viewmodels.RestaurantViewModel;
 
-import java.io.UnsupportedEncodingException;
-import java.net.URLEncoder;
+import java.io.IOException;
+import java.io.InputStream;
 
 public class RestaurantActivity extends AppCompatActivity {
 
@@ -37,22 +41,32 @@ public class RestaurantActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_restaurant);
-
-
-        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-            ActivityCompat.requestPermissions((Activity) this,
-                    new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 1);
-        } else {
-            getLocationUpdates();
-        }
-        init();
-
-        restaurantViewModel.getResponseLiveData().observe(this, new Observer<APIResponseRestaurant>() {
-            @Override
-            public void onChanged(@Nullable APIResponseRestaurant apiResponseRestaurant) {
-                consumeResponseRestaurant(apiResponseRestaurant);
+        
+        if (isNetworkConnected()) {
+            if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+                ActivityCompat.requestPermissions((Activity) this,
+                        new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 1);
+            } else {
+                getLocationUpdates();
             }
-        });
+            init();
+
+            restaurantViewModel.getResponseLiveData().observe(this, new Observer<APIResponseRestaurant>() {
+                @Override
+                public void onChanged(@Nullable APIResponseRestaurant apiResponseRestaurant) {
+                    consumeResponseRestaurant(apiResponseRestaurant);
+                }
+            });
+        } else {
+            Toast.makeText(this, "please check your internet!", Toast.LENGTH_SHORT).show();
+        }
+    }
+
+    public boolean isNetworkConnected() {
+        ConnectivityManager connectivityManager = (ConnectivityManager)
+                getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo networkInfo = connectivityManager.getActiveNetworkInfo();
+        return networkInfo != null && networkInfo.isConnected();
     }
 
     private void init() {
@@ -109,9 +123,27 @@ public class RestaurantActivity extends AppCompatActivity {
         if (response != null) {
             Log.d("response=", response.toString());
             activityRestaurantBinding.recyclerViewRestaurant.setLayoutManager(new LinearLayoutManager(this));
-            AdapterRestaurant adapter =
-                    new AdapterRestaurant(response.getResults(), restaurantViewModel,this);
-            activityRestaurantBinding.recyclerViewRestaurant.setAdapter(adapter);
+            AdapterRestaurant adapter;
+
+            if(response.getStatus() != "OK") {
+
+                Toast.makeText(this, response.getStatus() + " DUMMY DATA LOADED!", Toast.LENGTH_SHORT).show();
+                InputStream inputStream;
+                RestaurantResponse restaurantResponse = null;
+                try {
+                    inputStream = getAssets().open("restaurants.json");
+                    restaurantResponse = new Gson().fromJson(restaurantViewModel.readJSONFromAsset(inputStream), RestaurantResponse.class); 
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+                adapter =
+                        new AdapterRestaurant(restaurantResponse.getResults(), restaurantViewModel, this);
+                activityRestaurantBinding.recyclerViewRestaurant.setAdapter(adapter);
+            } else {
+                adapter =
+                        new AdapterRestaurant(response.getResults(), restaurantViewModel, this);
+                activityRestaurantBinding.recyclerViewRestaurant.setAdapter(adapter);
+            }
         } else {
             Toast.makeText(this,getResources().getString(R.string.errorString), Toast.LENGTH_SHORT).show();
         }
