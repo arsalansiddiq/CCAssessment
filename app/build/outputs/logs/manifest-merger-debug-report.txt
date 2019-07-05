@@ -1,0 +1,339 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml:2:1-26:12
+MERGED from [:weather] /Users/arsalansiddiq/Downloads/CCAssessment/weather/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-35:12
+MERGED from [:restaurant] /Users/arsalansiddiq/Downloads/CCAssessment/restaurant/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-31:12
+MERGED from [androidx.databinding:databinding-adapters:3.4.1] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/df1a6780dfb9914bbc64051d9d8e22ff/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-runtime:3.4.1] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/7cb2484fa1c5b169329a110e5c827c6e/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/4e315ee13b997b710dd97acce33003cd/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-ui:2.1.0-alpha05] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/d9633085552ceef56670da39c424359d/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/1d2826a8835da081ef6eff357555d8df/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/770bff1d9fee8f2b0b6538f28f8e765b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/2a4a39c7f2ae49b0ac336d05b8372e8d/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/de9a719034a480a9d06c14a255a01fa5/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/2ec20f92f4e84be11bca88117a32f116/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/37a4ccf36eb9a64ca467e5946dd4bf63/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/d04fb5ecb8a61ceaee8de3fdee26ca26/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/e83935be907cdd5a539c610e74b0b392/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/6a533e8f5580df7356011cf1f826b256/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/7c49d7c228f72089955fef6140471a89/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/89246f99f0a7b02edaeaf294e02ea8e2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/bcd3e6ac2a003494467481a581c2d380/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/f9bff3c5775a6634986e58c1575d35b9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/c8a8819c5769848f0ad9fe19193f4c0b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/0d9f56646c539289e6994f61a6e6bd3b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/e0873bb0b1e775b7c79d3e83738cc7ac/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/9128b2ae2da425ac8727cc2cfd4e64eb/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment:2.1.0-alpha05] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/fc84afc3b409be31a2ae1e12e238d8b2/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/80f5b1e6ac8cf4f3640c92c9a8b9144d/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.fragment:fragment:1.1.0-beta01] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/4018c9bb0984760003f352b576e5f86f/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/604b797600f75fc339aa81c4f98b6b20/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/3ddd25c04ae8d63d282585b5b06bb808/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/0a55f0b1dd8b45e23cbf8b09f78c14cc/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/56a2df87835361a635a525201e79838e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/cbbda997e677b103e71f108429285dcd/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/f85789016746937e0a7eed5187f26ed5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/363719976008c8a4f6ac829a3a582c67/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/1c283d5d24bf86f25ffa592ee811fd9d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.1.0-alpha05] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/4558c56c1acdd09749cb781e0ea9b085/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.0.0-beta01] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/7909adbae23297754421ee7b14e6cd7a/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.1.0-alpha05] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/229a5464ee294c82c37ea7cd510ff56e/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/4553e9a47fb53b08b056a40b16c16ba3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0-rc01] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/21f30a90847d01bb1da9638022cc77b5/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-beta01] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/2d92d61fa9470e0806a4cfb778b584ee/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/abb70989e3daf1cbddc925cd243e708b/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/9ec67fa1c44344cf04e3c99c1e2b2bc7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/b05cb2c566f7ec120bebd12b7d44d2b3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/aeefea4716192122f97a92a837932d27/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/843486dba7743cf894ec383648387acd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/51a7855edfbddb7c52c570789b78689d/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/3638ca4252b929a33caf245991491936/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/066d10476501e093fafe77a023852919/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/260729fa1884a25d7d2480f55faa308c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/a2a57b8b14fd2156ec9dcc0d4a9849f3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-beta01] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/2c89e7066044331a0e528b6ae14f6910/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/c67a892a0d0f5b3938f6e54e8956138f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0-beta01] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/f060c9ff59c062600c9e16f185db1807/AndroidManifest.xml:17:1-22:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/260c26be9ce2ae273029cc8d7a9e11fb/AndroidManifest.xml:15:1-20:12
+INJECTED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml:2:1-26:12
+	package
+		ADDED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml:3:5-38
+		INJECTED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml
+		ADDED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml:2:1-26:12
+		INJECTED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml
+		ADDED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml:2:1-26:12
+		INJECTED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from [:weather] /Users/arsalansiddiq/Downloads/CCAssessment/weather/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-67
+MERGED from [:weather] /Users/arsalansiddiq/Downloads/CCAssessment/weather/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-67
+MERGED from [:restaurant] /Users/arsalansiddiq/Downloads/CCAssessment/restaurant/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [:restaurant] /Users/arsalansiddiq/Downloads/CCAssessment/restaurant/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/e83935be907cdd5a539c610e74b0b392/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/e83935be907cdd5a539c610e74b0b392/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml:6:5-81
+MERGED from [:weather] /Users/arsalansiddiq/Downloads/CCAssessment/weather/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-81
+MERGED from [:weather] /Users/arsalansiddiq/Downloads/CCAssessment/weather/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-81
+MERGED from [:restaurant] /Users/arsalansiddiq/Downloads/CCAssessment/restaurant/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-81
+MERGED from [:restaurant] /Users/arsalansiddiq/Downloads/CCAssessment/restaurant/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml:6:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml:7:5-79
+MERGED from [:weather] /Users/arsalansiddiq/Downloads/CCAssessment/weather/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-79
+MERGED from [:weather] /Users/arsalansiddiq/Downloads/CCAssessment/weather/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-79
+MERGED from [:restaurant] /Users/arsalansiddiq/Downloads/CCAssessment/restaurant/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
+MERGED from [:restaurant] /Users/arsalansiddiq/Downloads/CCAssessment/restaurant/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml:7:22-76
+application
+ADDED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml:9:5-24:19
+MERGED from [:weather] /Users/arsalansiddiq/Downloads/CCAssessment/weather/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:5-33:19
+MERGED from [:weather] /Users/arsalansiddiq/Downloads/CCAssessment/weather/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:5-33:19
+MERGED from [:restaurant] /Users/arsalansiddiq/Downloads/CCAssessment/restaurant/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-29:19
+MERGED from [:restaurant] /Users/arsalansiddiq/Downloads/CCAssessment/restaurant/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-29:19
+MERGED from [com.google.android.material:material:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/1d2826a8835da081ef6eff357555d8df/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/1d2826a8835da081ef6eff357555d8df/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/2a4a39c7f2ae49b0ac336d05b8372e8d/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/2a4a39c7f2ae49b0ac336d05b8372e8d/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/de9a719034a480a9d06c14a255a01fa5/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/de9a719034a480a9d06c14a255a01fa5/AndroidManifest.xml:7:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/2ec20f92f4e84be11bca88117a32f116/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/2ec20f92f4e84be11bca88117a32f116/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/37a4ccf36eb9a64ca467e5946dd4bf63/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/37a4ccf36eb9a64ca467e5946dd4bf63/AndroidManifest.xml:22:5-28:19
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/e83935be907cdd5a539c610e74b0b392/AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/e83935be907cdd5a539c610e74b0b392/AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/6a533e8f5580df7356011cf1f826b256/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/6a533e8f5580df7356011cf1f826b256/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/7c49d7c228f72089955fef6140471a89/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/7c49d7c228f72089955fef6140471a89/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/89246f99f0a7b02edaeaf294e02ea8e2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/89246f99f0a7b02edaeaf294e02ea8e2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/bcd3e6ac2a003494467481a581c2d380/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/bcd3e6ac2a003494467481a581c2d380/AndroidManifest.xml:22:5-26:19
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/80f5b1e6ac8cf4f3640c92c9a8b9144d/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/80f5b1e6ac8cf4f3640c92c9a8b9144d/AndroidManifest.xml:10:5-20
+MERGED from [androidx.core:core:1.1.0-rc01] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/21f30a90847d01bb1da9638022cc77b5/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0-rc01] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/21f30a90847d01bb1da9638022cc77b5/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/abb70989e3daf1cbddc925cd243e708b/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/abb70989e3daf1cbddc925cd243e708b/AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/51a7855edfbddb7c52c570789b78689d/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/51a7855edfbddb7c52c570789b78689d/AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0-rc01] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/21f30a90847d01bb1da9638022cc77b5/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml:12:9-41
+	android:roundIcon
+		ADDED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml:13:9-54
+	android:icon
+		ADDED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml:11:9-43
+	android:allowBackup
+		ADDED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml:16:9-40
+	android:usesCleartextTraffic
+		ADDED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml:15:9-44
+activity#com.mobile.ccassessment.SplashActivity
+ADDED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml:17:9-23:20
+	android:name
+		ADDED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml:17:19-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml:21:27-74
+uses-sdk
+INJECTED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml
+INJECTED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml
+MERGED from [:weather] /Users/arsalansiddiq/Downloads/CCAssessment/weather/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:weather] /Users/arsalansiddiq/Downloads/CCAssessment/weather/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:restaurant] /Users/arsalansiddiq/Downloads/CCAssessment/restaurant/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:restaurant] /Users/arsalansiddiq/Downloads/CCAssessment/restaurant/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.databinding:databinding-adapters:3.4.1] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/df1a6780dfb9914bbc64051d9d8e22ff/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-adapters:3.4.1] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/df1a6780dfb9914bbc64051d9d8e22ff/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.4.1] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/7cb2484fa1c5b169329a110e5c827c6e/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.4.1] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/7cb2484fa1c5b169329a110e5c827c6e/AndroidManifest.xml:22:5-44
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/4e315ee13b997b710dd97acce33003cd/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/4e315ee13b997b710dd97acce33003cd/AndroidManifest.xml:20:5-43
+MERGED from [androidx.navigation:navigation-ui:2.1.0-alpha05] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/d9633085552ceef56670da39c424359d/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.1.0-alpha05] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/d9633085552ceef56670da39c424359d/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/1d2826a8835da081ef6eff357555d8df/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/1d2826a8835da081ef6eff357555d8df/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/770bff1d9fee8f2b0b6538f28f8e765b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/770bff1d9fee8f2b0b6538f28f8e765b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/2a4a39c7f2ae49b0ac336d05b8372e8d/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/2a4a39c7f2ae49b0ac336d05b8372e8d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/de9a719034a480a9d06c14a255a01fa5/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/de9a719034a480a9d06c14a255a01fa5/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/2ec20f92f4e84be11bca88117a32f116/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/2ec20f92f4e84be11bca88117a32f116/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/37a4ccf36eb9a64ca467e5946dd4bf63/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/37a4ccf36eb9a64ca467e5946dd4bf63/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/d04fb5ecb8a61ceaee8de3fdee26ca26/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/d04fb5ecb8a61ceaee8de3fdee26ca26/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/e83935be907cdd5a539c610e74b0b392/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/e83935be907cdd5a539c610e74b0b392/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/6a533e8f5580df7356011cf1f826b256/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/6a533e8f5580df7356011cf1f826b256/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/7c49d7c228f72089955fef6140471a89/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/7c49d7c228f72089955fef6140471a89/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/89246f99f0a7b02edaeaf294e02ea8e2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/89246f99f0a7b02edaeaf294e02ea8e2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/bcd3e6ac2a003494467481a581c2d380/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/bcd3e6ac2a003494467481a581c2d380/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/f9bff3c5775a6634986e58c1575d35b9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/f9bff3c5775a6634986e58c1575d35b9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/c8a8819c5769848f0ad9fe19193f4c0b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/c8a8819c5769848f0ad9fe19193f4c0b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/0d9f56646c539289e6994f61a6e6bd3b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/0d9f56646c539289e6994f61a6e6bd3b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/e0873bb0b1e775b7c79d3e83738cc7ac/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/e0873bb0b1e775b7c79d3e83738cc7ac/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/9128b2ae2da425ac8727cc2cfd4e64eb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/9128b2ae2da425ac8727cc2cfd4e64eb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.1.0-alpha05] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/fc84afc3b409be31a2ae1e12e238d8b2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.1.0-alpha05] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/fc84afc3b409be31a2ae1e12e238d8b2/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/80f5b1e6ac8cf4f3640c92c9a8b9144d/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/80f5b1e6ac8cf4f3640c92c9a8b9144d/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.fragment:fragment:1.1.0-beta01] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/4018c9bb0984760003f352b576e5f86f/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0-beta01] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/4018c9bb0984760003f352b576e5f86f/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/604b797600f75fc339aa81c4f98b6b20/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/604b797600f75fc339aa81c4f98b6b20/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/3ddd25c04ae8d63d282585b5b06bb808/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/3ddd25c04ae8d63d282585b5b06bb808/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/0a55f0b1dd8b45e23cbf8b09f78c14cc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/0a55f0b1dd8b45e23cbf8b09f78c14cc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/56a2df87835361a635a525201e79838e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/56a2df87835361a635a525201e79838e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/cbbda997e677b103e71f108429285dcd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/cbbda997e677b103e71f108429285dcd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/f85789016746937e0a7eed5187f26ed5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/f85789016746937e0a7eed5187f26ed5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/363719976008c8a4f6ac829a3a582c67/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/363719976008c8a4f6ac829a3a582c67/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/1c283d5d24bf86f25ffa592ee811fd9d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/1c283d5d24bf86f25ffa592ee811fd9d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.1.0-alpha05] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/4558c56c1acdd09749cb781e0ea9b085/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.1.0-alpha05] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/4558c56c1acdd09749cb781e0ea9b085/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0-beta01] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/7909adbae23297754421ee7b14e6cd7a/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0-beta01] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/7909adbae23297754421ee7b14e6cd7a/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.1.0-alpha05] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/229a5464ee294c82c37ea7cd510ff56e/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.1.0-alpha05] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/229a5464ee294c82c37ea7cd510ff56e/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/4553e9a47fb53b08b056a40b16c16ba3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/4553e9a47fb53b08b056a40b16c16ba3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0-rc01] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/21f30a90847d01bb1da9638022cc77b5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0-rc01] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/21f30a90847d01bb1da9638022cc77b5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-beta01] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/2d92d61fa9470e0806a4cfb778b584ee/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-beta01] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/2d92d61fa9470e0806a4cfb778b584ee/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/abb70989e3daf1cbddc925cd243e708b/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/abb70989e3daf1cbddc925cd243e708b/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/9ec67fa1c44344cf04e3c99c1e2b2bc7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/9ec67fa1c44344cf04e3c99c1e2b2bc7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/b05cb2c566f7ec120bebd12b7d44d2b3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/b05cb2c566f7ec120bebd12b7d44d2b3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/aeefea4716192122f97a92a837932d27/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/aeefea4716192122f97a92a837932d27/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/843486dba7743cf894ec383648387acd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/843486dba7743cf894ec383648387acd/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/51a7855edfbddb7c52c570789b78689d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/51a7855edfbddb7c52c570789b78689d/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/3638ca4252b929a33caf245991491936/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/3638ca4252b929a33caf245991491936/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/066d10476501e093fafe77a023852919/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/066d10476501e093fafe77a023852919/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/260729fa1884a25d7d2480f55faa308c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/260729fa1884a25d7d2480f55faa308c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/a2a57b8b14fd2156ec9dcc0d4a9849f3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/a2a57b8b14fd2156ec9dcc0d4a9849f3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-beta01] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/2c89e7066044331a0e528b6ae14f6910/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-beta01] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/2c89e7066044331a0e528b6ae14f6910/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/c67a892a0d0f5b3938f6e54e8956138f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/c67a892a0d0f5b3938f6e54e8956138f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0-beta01] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/f060c9ff59c062600c9e16f185db1807/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0-beta01] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/f060c9ff59c062600c9e16f185db1807/AndroidManifest.xml:20:5-44
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/260c26be9ce2ae273029cc8d7a9e11fb/AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/260c26be9ce2ae273029cc8d7a9e11fb/AndroidManifest.xml:18:5-43
+INJECTED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml
+INJECTED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml
+		ADDED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml
+		ADDED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/arsalansiddiq/Downloads/CCAssessment/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:weather] /Users/arsalansiddiq/Downloads/CCAssessment/weather/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-79
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/e83935be907cdd5a539c610e74b0b392/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/e83935be907cdd5a539c610e74b0b392/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [:weather] /Users/arsalansiddiq/Downloads/CCAssessment/weather/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-76
+activity#com.example.android.weather.ui.weather.WeatherActivity
+ADDED from [:weather] /Users/arsalansiddiq/Downloads/CCAssessment/weather/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:9-32:20
+	android:name
+		ADDED from [:weather] /Users/arsalansiddiq/Downloads/CCAssessment/weather/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:19-88
+activity#com.mobile.restaruant.ui.restsurant.RestaurantActivity
+ADDED from [:restaurant] /Users/arsalansiddiq/Downloads/CCAssessment/restaurant/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:9-24:20
+	android:name
+		ADDED from [:restaurant] /Users/arsalansiddiq/Downloads/CCAssessment/restaurant/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:19-88
+meta-data#com.google.android.geo.API_KEY
+ADDED from [:restaurant] /Users/arsalansiddiq/Downloads/CCAssessment/restaurant/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:9-28:55
+	android:value
+		ADDED from [:restaurant] /Users/arsalansiddiq/Downloads/CCAssessment/restaurant/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-52
+	android:name
+		ADDED from [:restaurant] /Users/arsalansiddiq/Downloads/CCAssessment/restaurant/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-58
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/37a4ccf36eb9a64ca467e5946dd4bf63/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/37a4ccf36eb9a64ca467e5946dd4bf63/AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/37a4ccf36eb9a64ca467e5946dd4bf63/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/37a4ccf36eb9a64ca467e5946dd4bf63/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/37a4ccf36eb9a64ca467e5946dd4bf63/AndroidManifest.xml:24:13-79
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:15.0.1] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/e83935be907cdd5a539c610e74b0b392/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/e83935be907cdd5a539c610e74b0b392/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/e83935be907cdd5a539c610e74b0b392/AndroidManifest.xml:28:9-32
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/6a533e8f5580df7356011cf1f826b256/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/6a533e8f5580df7356011cf1f826b256/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/6a533e8f5580df7356011cf1f826b256/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/6a533e8f5580df7356011cf1f826b256/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/bcd3e6ac2a003494467481a581c2d380/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/bcd3e6ac2a003494467481a581c2d380/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/arsalansiddiq/.gradle/caches/transforms-2/files-2.1/bcd3e6ac2a003494467481a581c2d380/AndroidManifest.xml:24:13-58
